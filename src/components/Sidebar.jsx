@@ -1,8 +1,12 @@
-function Sidebar({ chats, onNewChat, onSelectChat, currentChatId }) {
+function Sidebar({ chats, onNewChat, onSelectChat, onBackToHome, currentChatId }) {
   return (
     <div className="w-64 bg-slate-950 border-r border-slate-800 flex flex-col">
       <div className="p-4 border-b border-slate-800">
-        <div className="flex items-center space-x-2">
+        <div 
+          onClick={onBackToHome}
+          className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity"
+          title="Back to Home"
+        >
           <div className="w-8 h-8 bg-gradient-to-br from-slate-700 to-slate-800 rounded flex items-center justify-center">
             <span className="text-white font-bold text-xs">OL</span>
           </div>

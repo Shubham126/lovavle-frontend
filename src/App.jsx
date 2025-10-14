@@ -15,6 +15,11 @@ function App() {
     setShowLanding(false);
   };
 
+  const handleBackToHome = () => {
+    setShowLanding(true);
+    setCurrentChat(null);
+  };
+
   const handleNewChat = () => {
     setCurrentChat(null);
   };
@@ -76,6 +81,7 @@ function App() {
         chats={chats}
         onNewChat={handleNewChat}
         onSelectChat={handleSelectChat}
+        onBackToHome={handleBackToHome}
         currentChatId={currentChat?.id}
       />
       <div className="flex-1 flex flex-col overflow-hidden">
