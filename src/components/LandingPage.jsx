@@ -1,20 +1,20 @@
 function LandingPage({ onGetStarted }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-black-800 to-black-900 text-white">
       <nav className="w-full max-w-7xl mx-auto mt-8 px-4">
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-slate-500 to-slate-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">OL</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-violet-500 to-red-700 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">OG</span>
               </div>
-              <span className="font-semibold">Open Lovable</span>
+              <span className="font-semibold">Open GuideAI</span>
             </div>
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">What is</a>
+            {/* <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">What is</a> */}
             <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Features</a>
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">How to Use</a>
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Compare</a>
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">FAQ</a>
+            {/* <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">How to Use</a> */}
+            {/* <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Compare</a> */}
+            {/* <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">FAQ</a> */}
             <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">Pricing</a>
           </div>
           <div className="flex items-center space-x-4">
@@ -33,7 +33,7 @@ function LandingPage({ onGetStarted }) {
         <div className="w-full max-w-5xl mx-auto text-center">
           <h1 className="text-7xl md:text-8xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-slate-300 via-slate-200 to-slate-300 bg-clip-text text-transparent">
-              Open Lovable
+              Open GuideAI
             </span>
           </h1>
 
@@ -57,22 +57,22 @@ function LandingPage({ onGetStarted }) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <div className="text-6xl font-bold bg-gradient-to-r from-slate-300 to-slate-400 bg-clip-text text-transparent mb-3">
+              <div className="text-6xl font-bold bg-gradient-to-r from-slate-300 to-pink-900 bg-clip-text text-transparent mb-3">
                 100%
               </div>
-              <div className="text-slate-400 text-sm">Free & Open Source</div>
+              <div className="text-slate-600 text-sm">Free & Open Source</div>
             </div>
 
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
               <div className="text-6xl font-bold text-slate-300 mb-3">&lt;30s</div>
-              <div className="text-slate-400 text-sm">Website to React App</div>
+              <div className="text-slate-600 text-sm">Website to React App</div>
             </div>
 
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <div className="text-6xl font-bold bg-gradient-to-r from-slate-300 to-slate-400 bg-clip-text text-transparent mb-3">
+              <div className="text-6xl font-bold bg-gradient-to-r from-slate-300 to-pink-900 bg-clip-text text-transparent mb-3">
                 MIT
               </div>
-              <div className="text-slate-400 text-sm">Licensed</div>
+              <div className="text-slate-600 text-sm">Licensed</div>
             </div>
           </div>
         </div>

@@ -76,7 +76,7 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen bg-slate-950 text-white">
+    <div className="flex h-screen bg-black-900 text-white">
       <Sidebar
         chats={chats}
         onNewChat={handleNewChat}
@@ -88,8 +88,8 @@ function App() {
         {currentChat ? (
           <div className="flex-1 overflow-y-auto p-8">
             <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-slate-900 rounded-lg p-6 border border-slate-800">
-                <h2 className="text-xl font-semibold mb-2 text-slate-100">Prompt</h2>
+              <div className="bg-black-900 rounded-lg p-6 border border-slate-800">
+                <h2 className="text-xl font-semibold mb-2 text-white">Prompt</h2>
                 <p className="text-slate-300">{currentChat.prompt}</p>
                 {currentChat.imageUrl && (
                   <img
